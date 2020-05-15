@@ -12,6 +12,16 @@ const firebaseConfig = {
     appId: "1:857841871216:web:7923b5abeea3fe83a3c7b5",
     measurementId: "G-WFQLLXCNMK"
 }
+// const firebaseConfig = {
+//     apiKey: "AIzaSyDXIhGM-JD8RAJxIHh8WzLzEAMFSvqe7LY",
+//     authDomain: "appfood-f81e9.firebaseapp.com",
+//     databaseURL: "https://appfood-f81e9.firebaseio.com/",
+//     projectId: "appfood-f81e9",
+//     storageBucket: "gs://appfood-f81e9.appspot.com",
+//     messagingSenderId: "857841871216",
+//     appId: "1:857841871216:web:7923b5abeea3fe83a3c7b5",
+//     measurementId: "G-WFQLLXCNMK"
+// }
 firebase.initializeApp(firebaseConfig);
 
 export const createUserProfileDocument = async (userAuth , additionalData) =>{
